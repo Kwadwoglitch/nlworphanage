@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9; /* Light green background */
+  color: #2e3b4e; /* Dark blue text */
+  margin: 0;
+  padding: 0;
+}
+
+.donation-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  color: #006400; /* Dark green */
+  text-align: center;
+}
+
+h2 {
+  color: #8b4513; /* Brown */
+}
+
+/* Donation Type */
+.donation-type label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Donation Amount */
+.donation-amount {
+  margin: 20px 0;
+}
+
+.donation-amount label {
+  font-weight: bold;
+}
+
+.donation-amount input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #2e3b4e;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* Payment Options */
+.payment-options {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-options a {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.payment-options .paypal-link {
+  background-color: #fff; /* White background */
+  color: #2e3b4e; /* Dark blue text */
+  border: 2px solid #006400; /* Dark green border */
+}
+
+.payment-options .paypal-link:hover {
+  background-color: #f0f8f1; /* Slightly greenish white */
+}
+
+.payment-options .credit-card-link {
+  background-color: #2e3b4e; /* Dark blue */
+  color: #fff;
+}
+
+.payment-options .credit-card-link:hover {
+  background-color: #3c5878; /* Lighter blue */
+}
+
+.payment-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* Donate Button */
+.donate-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #006400; /* Dark green */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #228b22; /* Lighter green */
+}
